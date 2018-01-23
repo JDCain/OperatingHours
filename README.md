@@ -1,1 +1,2 @@
 # OperatingHours
+Included here is a small class library and its tests which I had used to create an API which was used to determine whether or not help desk chat should be open. It takes an iCal which allowed B help desk managers to directly control it themselves without requesting development changes. In order to reduce the time of the calls a web job was running on the server which would check the I Cals for changes and then copy them locally to the server every 15 minutes.
